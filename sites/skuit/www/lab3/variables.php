@@ -64,7 +64,7 @@ $grades = [4, 4, 3, 5, 4];
     <?php
     $greeting = "Привет, " . $name . "!";
     $ageInfo = "Тебе $age лет";
-    $uppeiName = strtouppei($name);
+    $uppeiName = strtoupper($name);
     $nameLength = strlen($name);
     ?>
 
@@ -100,7 +100,7 @@ $grades = [4, 4, 3, 5, 4];
 </div>
 
 <div class="section">
-    <h2>5. Случайные чтсла</h2>
+    <h2>5. Случайные числа</h2>
     <?php
     $randomint = rand(1, 100);
     $randomFoat = round(rand(0, 100) / 100, 2);
